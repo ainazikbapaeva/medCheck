@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+.swiper {
+  margin-top: 60px;
+  width: 782px;
+  height: 290px;
+}
+.mySwiper {
+  margin: 60px 0px;
+  padding: 0;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  width: 510px;
+  height: 40px;
+  margin-top: 100px;
+  cursor: pointer;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.SwiperSlide {
+  background: rgba(0, 147, 68, 0.14);
+}
+.SwiperSlide2 {
+  background: #eee;
+}
+.SwiperSlide3 {
+  background: #ebf2fc;
+}
+.SwiperSlide4 {
+  background: #fdf2e9;
+}
+.contact {
+  margin-top: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 659px;
+  height: 460px;
+  border-radius: 20px;
+  background: var(--Tertiary-the-lightest-blue, #dbebff);
+  padding-top: 70px;
+}
+.boxInp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+.text {
+  color: var(--Primary-black, #222);
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 500;
+}
+.adres {
+  margin-top: 15px;
+  color: var(--Primary-black, #222);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+}
+.how {
+  color: var(--Primary-black-gray, #4d4e51);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: -105px;
+  margin-top: 50px;
+}
+.how2 {
+  color: var(--Primary-black-gray, #4d4e51);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: -60px;
+  margin-top: 50px;
+}
+.boxInpUser {
+  width: 263px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 147, 68, 0.5);
+  background: #fff;
+  padding: 12px;
+}
+.boxInpUser input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.boxInpNum {
+  width: 263px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 147, 68, 0.5);
+  background: #fff;
+  padding: 12px;
+}
+.boxInpNum input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.boxBtn {
+  margin-top: 40px;
+  width: 217px;
+  height: 51px;
+  display: flex;
+  padding: 8px 12px 8px 24px;
+  margin-left: 220px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 24px;
+  background: var(
+    --Primary-button-gradient,
+    linear-gradient(181deg, #0cbb6b 0.45%, #027b44 99.39%)
+  );
+  cursor: pointer;
+}
+.boxBtn button {
+  border: none;
+  background: none;
+  color: var(--Primary-white, #fff);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.woman {
+  margin-top: -80px;
+  margin-left: -60px;
+}
