@@ -1,12 +1,7 @@
 import React from "react";
-import Article from "./components/Article/Article";
 
 const Main = () => {
-  return (
-    <div>
-      <Article />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Main;
