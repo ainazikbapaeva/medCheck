@@ -10,8 +10,6 @@ import imgHeader_7 from "./../../image/Vector (3).png";
 import imgHeader_8 from ".././../image/Profile.png";
 import imgHeader_9 from "./../../image/Line 31.png";
 import imgHeader_10 from "../././../image/Vector (4).png";
-import imgHeader_11 from "././.././../image/Добро пожаловать в клинику MedCheck.png";
-import imgHeader_12 from "../../image/Mask group (1).png";
 const Heder = () => {
   return (
     <>
@@ -68,18 +66,7 @@ const Heder = () => {
           <button className="button_med_2">ЗАПИСЬ ОНЛАЙН</button>
         </div>
       </Header_middle>
-      <Header_end>
-        <div>
-          <img style={{ margin: "20px" }} src={imgHeader_11} alt="" />
-          <p style={{ margin: "20px", fontSize: "17px" }}>
-            Международный Медицинская клиника «MedCheck — это клиника, <br />
-            в которой применяются новейшие диагностические и лечебные <br />
-            технологии и ведут прием лучшие специалисты.
-          </p>
-          <button style={{ margin: "20px" }}>ОСТАВЬТЕ ЗАЯВКУ</button>
-        </div>
-        <img src={imgHeader_12} alt="" />
-      </Header_end>
+  
     </>
   );
 };
@@ -173,24 +160,6 @@ const Header_middle = styled.header`
     margin-left: 20px;
   }
 `;
-const Header_end = styled.header`
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  div {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-  }
-  button {
-    width: 205px;
-    height: 43px;
-    padding: 8px, 20px, 8px, 20px;
-    border-radius: 24px;
-    border: 1px solid #009344;
-    background: #ffffff;
-    color: #009344;
-  }
-`;
+
 
 export default Heder;
