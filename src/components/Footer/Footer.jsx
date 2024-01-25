@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Croupimg from "../../image/Group 337943.png";
-import Croupimg2 from "../../image/GeoPoint.png";
 import Croupimg3 from "../../image/ant-design_phone-outlined.png";
 import Croupimg4 from "../../image/ant-design_phone-outlined (1).png";
 import Croupimg5 from "../../image/ant-design_phone-outlined (2).png";
@@ -28,7 +27,6 @@ const Footer = () => {
             <div className="footer-divn-center">
               <div>
                 <div className="container-center-div">
-                  <img src={Croupimg2} alt="" />
                   <span className="medchek-gmail-com">
                     106452, г. Бишкек, Гражданская 119
                   </span>
