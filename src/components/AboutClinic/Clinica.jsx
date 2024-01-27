@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import imgHeader_1 from "../../image/ant-design_phone-outlined (6).png"
+import imgHeader_1 from "../../image/ant-design_phone-outlined (6).png";
 import imgHeader_2 from "../../image/ant-design_phone-outlined.png";
 import imgHeader_3 from "../../image/System.png";
-import imgHeader_4 from "../../image//Component 47 (2).png";
+import imgHeader_4 from "../../image/Component 47 (2).png";
 import imgHeader_5 from "../../image/Component 47 (1).png";
 import imgHeader_6 from "../../image/Component 47.png";
 import imgHeader_7 from "../../image/ant-design_phone-outlined.png";
@@ -27,7 +27,7 @@ import Croupimg4 from "../../image/ant-design_phone-outlined (1).png";
 import Croupimg5 from "../../image/ant-design_phone-outlined (2).png";
 import Croupimg6 from "../../image/Component 5.png";
 import Croupimg7 from "../../image/Component 3.png";
-import Croupimg8 from "../../image/Component 3 (1).png";
+import Croupimg8 from "../../image/Component 4.png";
 
 const Clinica = () => {
   return (
